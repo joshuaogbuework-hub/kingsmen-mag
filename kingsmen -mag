@@ -1,0 +1,93 @@
+echo "# kingsmen-mag" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/joshuaogbuework-hub/kingsmen-mag.git
+git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kingsmen Mag</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">KINGSMEN</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Culture</a>
+    <a href="#">Style</a>
+    <a href="#">Power</a>
+    <a href="#">About</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Modern Power. Eternal Class.</h1>
+    <p>Kingsmen Mag is a premium digital publication exploring leadership, masculinity, legacy, and influence.</p>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Featured Stories</h2>
+  <div class="articles">
+
+    <div class="article">
+      <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb">
+      <div class="article-content">
+        <h3>The New Gentleman</h3>
+        <p>How elegance, discipline, and strength define modern masculinity.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://images.unsplash.com/photo-1520975922284-8b456906c813">
+      <div class="article-content">
+        <h3>Presence & Authority</h3>
+        <p>The psychology of command and silent dominance.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7">
+      <div class="article-content">
+        <h3>Legacy Thinking</h3>
+        <p>Building wealth, wisdom, and power that outlives you.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="editorial">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+    <div>
+      <h2>The Kingsmen Code</h2>
+      <p>
+        True power is silent. True style is intentional.
+        Kingsmen Mag exists for men who move with precision, vision, and purpose.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Kingsmen Mag. All rights reserved.</p>
+  <div class="social">
+    <a href="#">Instagram</a>
+    <a href="#">X</a>
+    <a href="#">YouTube</a>
+  </div>
+</footer>
+
+</body>
+</html>
